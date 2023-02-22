@@ -15,7 +15,8 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background:linear-gradient(72deg,#3DEBB0 1% , #8956F3 99%);
+    background-color: grey;
+
 
    /* background-color: #024ef1;*/
 
@@ -24,11 +25,11 @@ body {
 
 .interface {
 
-    width: 1350px;
+    width: 1360px;
     background-color: white;
-    margin: 20px;
-    padding: 200px 5px 2000px 43px;
-    box-shadow: -20px 1px 4px 1px rgba(255, 255, 255, 0.7);
+    margin: -20px auto 0px auto;
+    padding: 200px 10px 2000px;
+    box-shadow: 0px 0px 0px rgba(2, 78, 241, 0.04);
 }
 
 
@@ -65,9 +66,9 @@ body {
 #cabecalho img  {
 
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: -70px;
-    margin: -290px 10px 20px 5px;
+    margin: -310px 10px 20px 5px;
 
 }
 
@@ -106,12 +107,12 @@ body {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 143px;
+    top: 160px;
     background-color: #bebebe;
     position: absolute;
     padding: 10px;
-    left: 20px;
-    width: 1380px;
+    left: 32px;
+    width: 1357px;
 
 }
 
@@ -122,10 +123,10 @@ body {
     margin: 1px;
     padding: 2px;
     transition: background-color 2s;
-    background-color: #009dff;
+   /* background-color: #009dff;
     border: 1px solid #009dff;
     border-radius: 20px;
-
+*/
 }
 
 
@@ -177,7 +178,7 @@ a { color: #ffffff;
     display: flex;
     position: absolute;
     scale: 30%;
-    top: -15px;
+    top: 300px;
     right: -150px;
     border: 2px solid black;
     border-radius: 30px;
@@ -216,17 +217,18 @@ footer#rodape {
 
 
 
-/*
+
 
 .content {
 
-    width: 1500px;
+    width: 1970px;
     height: 314px;
     border-radius: 40px;
     position: absolute;
     /*overflow: hidden;*/
-  /*  transform: translate(10%,5%);
-
+    transform: translate(8.5%,-55%);
+   left: -205px;
+    padding: 5px;
 }
 
 .navigation {
@@ -244,9 +246,9 @@ footer#rodape {
 
     width: 70px;
     height: 25px;
-    border: 1px solid black;
+    border: 1px solid #4b4b4b;
     margin: 6px;
-    transform: translate(-600%,-900%);
+    transform: translate(-400%,50%);
     cursor: pointer;
     transition: .4s;
 }
@@ -303,7 +305,7 @@ input {
 #slide4:checked.s1 {
     margin-left:-90%;
 }
-*/
+
 /*
 
 h2 {
